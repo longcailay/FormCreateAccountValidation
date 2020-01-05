@@ -89,5 +89,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DKL_Validation\DKL_Validation.csproj">
+      <Project>{151707c5-46bc-47bd-9275-be3f30f9bf7f}</Project>
+      <Name>DKL_Validation</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

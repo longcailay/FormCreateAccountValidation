@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FluentValidation;
+
+
+//using DKL_Validation;
 namespace CreateAccount.Validator
 {
     public class UserValidator : AbstractValidator<UserAccount>
